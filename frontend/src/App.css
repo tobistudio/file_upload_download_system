@@ -1,0 +1,146 @@
+body {
+  background: #c1bfbf;
+  color: #404040;
+}
+
+.container {
+  margin: auto;
+  max-width: 1170px;
+  width: 100%;
+  text-align: center;
+}
+
+.upload_button {
+  background: #535e63;
+  color: #fff;
+  padding: 14px 0px;
+  border: 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075);
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.upload_button * {
+  padding: 5px;
+}
+
+.upload_button:hover {
+  background-color: #596368;
+}
+
+img {
+  max-height: 80px;
+}
+
+.header {
+  margin-top: 20px;
+}
+
+.content {
+  margin-top: 40px;
+}
+
+.icon {
+  width: 20px;
+  padding: 10px 10px 0 10px;
+}
+
+.bottom {
+  width: 50%;
+  border-top: 1px solid grey;
+  margin: auto;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+.copy_board input,
+.copy {
+  margin: auto;
+  display: block;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  outline: 1px solid #d5dde2;
+  width: 92%;
+}
+
+.copy {
+  width: 8%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.copy {
+  position: relative;
+}
+
+.noti {
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 60px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 4px 0;
+  position: absolute;
+  z-index: 1;
+  top: 120%;
+  left: 95%;
+  margin-left: -60px;
+
+}
+
+.noti::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+input:hover {
+  outline: 1px solid #76bdec;
+}
+
+.copy_board {
+  display: flex;
+  width: 48%;
+  margin: auto;
+}
+
+progress {
+  /* background-color: #68a06c; */
+  background: rgba(74, 151, 74, 0.692);
+  width: 48%;
+  height: 7px;
+  border-radius: 10px;
+}
