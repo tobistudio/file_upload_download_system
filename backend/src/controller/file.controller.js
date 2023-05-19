@@ -53,7 +53,6 @@ const getListFiles = (req, res) => {
 };
 
 const download = (req, res) => {
-  today = new Date();
   const fileName = req.params.name;
   const directoryPath = __basedir + "/resources/static/assets/uploads/";
 
